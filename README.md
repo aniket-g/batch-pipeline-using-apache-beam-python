@@ -8,7 +8,5 @@ https://www.kaggle.com/nickhould/craft-cans
 ## Basic flow of the pipeline 
 
 1. Read the data from google cloud storage bucket (Batch). 
-2. Create a cleaning pipeline using Apache Beam.
-3. Run it using Dataflow runner (Dataflow). 
-4. Write the data into data Sink (BigQuery) and analyze it.
-5. Create beautiful visualization (Data Studio).
+2. pply some transformations such as splitting data by comma separator, dropping unwanted columns, convert data types, etc.
+3. Write the data into data Sink (BigQuery) and analyze it.
