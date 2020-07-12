@@ -8,5 +8,5 @@ https://www.kaggle.com/nickhould/craft-cans
 ## Basic flow of the pipeline 
 
 1. Read the data from google cloud storage bucket (Batch). 
-2. pply some transformations such as splitting data by comma separator, dropping unwanted columns, convert data types, etc.
+2. Apply some transformations such as splitting data by comma separator, dropping unwanted columns, convert data types, etc.
 3. Write the data into data Sink (BigQuery) and analyze it.
