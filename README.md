@@ -10,3 +10,7 @@ https://www.kaggle.com/nickhould/craft-cans
 1. Read the data from google cloud storage bucket (Batch). 
 2. Apply some transformations such as splitting data by comma separator, dropping unwanted columns, convert data types, etc.
 3. Write the data into data Sink (BigQuery) and analyze it.
+
+You can see complete explaination of each benchmark in article given below:
+
+https://medium.com/@aniketghole88/apache-beam-pipeline-for-cleaning-batch-data-using-cloud-dataflow-and-bigquery-f9272cd89eba
